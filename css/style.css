@@ -1,7 +1,6 @@
 #about nav li.about a,
 #study nav li.study a,
-#gallery nav li.gallery a,
-#appdesign nav li.appdesign a {
+#gallery nav li.gallery a {
   opacity: 0.3;
 }
 nav ul li:nth-child(odd) {
@@ -17,6 +16,7 @@ nav ul li a {
   font-size: 20px;
   letter-spacing: 0.1em;
 }
+
 .socialBtn {
   text-align: right;
 }
@@ -30,4 +30,16 @@ nav ul li a {
 .socialBtn img {
   width: 28px;
   height: 28px;
+}
+
+
+.socialBtn_about {
+  text-align: center;
+}
+.socialBtn_about a{
+  padding: 12px;
+}
+.socialBtn_about img {
+  width: 40px;
+  height: 40px;
 }
