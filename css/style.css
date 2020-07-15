@@ -1,0 +1,33 @@
+#about nav li.about a,
+#study nav li.study a,
+#gallery nav li.gallery a,
+#appdesign nav li.appdesign a {
+  opacity: 0.3;
+}
+nav ul li:nth-child(odd) {
+  background: url(../common/line_nav.gif) repeat-y right top;
+  background-size:  1px 10px;
+}
+nav ul li a {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+.socialBtn {
+  text-align: right;
+}
+.socialBtn li {
+  display: inline;
+  margin-right: 12px;
+}
+.socialBtn li.last {
+  margin-right: 0;
+}
+.socialBtn img {
+  width: 28px;
+  height: 28px;
+}
